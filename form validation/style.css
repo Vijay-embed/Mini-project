@@ -1,0 +1,66 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 139, 0.569),violet );
+    background-attachment: fixed;
+}
+
+form{
+    background-color: white;
+    width:600px;
+    margin:100px auto;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+    font-size: 16px;
+    background-color: snow;
+    
+    
+}
+ h1{
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration-line: underline; 
+    color: rgba(0, 0, 139, 0.569);
+    text-shadow: 0 0 10px violet;
+ }
+
+ input[type=text],input[type=password],input[type=email],select,textarea{
+    width: 100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ }
+ textarea{
+    resize: vertical;
+ }
+
+ input[type="reset"],input[type=submit]{
+    background-color:rgba(0, 0, 139, 0.569) ;
+    border: none;
+    border-radius: 2px;
+    width: 60px;
+    height:30px;
+    font-size:16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}   
+
+input[type= "reset"]:hover{
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 139, 0.569),violet);
+}
+input[type="submit"]:hover{
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 139, 0.569),violet);
+}
+input[type="checkbox"]{
+    accent-color:rgba(0, 0, 139, 0.569) ;
+}
+
+.error-message{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#password-error{
+    color: aqua;
+}
